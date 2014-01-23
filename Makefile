@@ -4,12 +4,12 @@
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
 PROG_NAME       := test
 PROG_VERSION    := 0.0.1
-PROG_URL        := https://github.com/progman/lib_c
+PROG_URL        := https://github.com/progman/libcore.c.git
 
 OUT_DIR         := bin
-C_LIST          := list.c other.c test.c
+C_LIST          := list.c libcore.c test.c
 CPP_LIST        :=
-HEADER_LIST     := list.h other.h
+HEADER_LIST     := list.h libcore.h
 
 CFLAGS          :=
 CPPFLAGS        :=
